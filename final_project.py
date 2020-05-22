@@ -9,10 +9,10 @@ import tweepy
 import random
 import time
 
-CONSUMER_KEY = 'SWvH0XEAEktPtvujC6xi453jp'
-CONSUMER_SECRET = 'LUTtjsx6MWQd6uE6D9O8kJtO6Jvl1vs6oMEFQbQFMVJiyk9pOy'
-ACCESS_KEY = '1253125310691901440-87t2Lv2BqccS8D2pGRXyoZiry1XHMs'
-ACCESS_SECRET = 'kz4rxqKb9ieHMJVj466uwzejRLX6uUbmECpKj3omxl7o4'
+CONSUMER_KEY = '(your key goes here)' # get your unique key from the twitter api
+CONSUMER_SECRET = '(your key goes here)'
+ACCESS_KEY = '(your key goes here)'
+ACCESS_SECRET = '(your key goes here)'
 
 # Twitter
 auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
